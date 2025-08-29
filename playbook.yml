@@ -15,6 +15,10 @@
     - name: Build Docker image
       command:
         docker build -t {{ dockerhub_username }}/regapp:latest .
+      args:
+        chdir: /home/ansadmin/Docker
+
+
 
     - name: Push Docker image to DockerHub
       command:
