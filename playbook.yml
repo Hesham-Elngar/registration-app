@@ -1,7 +1,6 @@
 ---
 - name: Build and push Docker image using command
-  hosts: localhost
-  connection: local
+  hosts:  servers
   become: yes
   vars_files:
     - ./vars.yml
