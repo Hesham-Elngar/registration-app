@@ -14,7 +14,7 @@
 
     - name: Build Docker image
       command:
-        docker build -t {{ dockerhub_username }}/regapp:latest /Docker
+        docker build -t {{ dockerhub_username }}/regapp:latest .
 
     - name: Push Docker image to DockerHub
       command:
