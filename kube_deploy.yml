@@ -1,0 +1,15 @@
+---
+- name: deploy app
+  hosts: kubernetes
+  user: root
+  tasks:
+    - name: deploy app on kubernetes
+      command: kubectl apply -f regapp_deployment.yaml
+
+    - name: create service for regapp
+      command: kubectl apply -f regapp_service.yaml
+
+    - name: update deployment with new pods if image updated on dockerHub
+      command: kubectl rollout restart deployments regapp-deployment
+
+

@@ -1,0 +1,21 @@
+---
+- name: Build and push Docker image using command
+  hosts:  servers
+  become: yes
+  vars_files:
+    - ./vars.yml
+
+  tasks:
+    - name: Log in to DockerHub
+      command:
+        docker login -u {{ dockerhub_username }} -p {{ dockerhub_password }}
+      register: login_result
+      changed_when: "'Login Succeeded' in login_result.stdout"
+
+    - name: Build Docker image
+      command:
+        docker build -t {{ dockerhub_username }}/regapp:latest .
+
+    - name: Push Docker image to DockerHub
+      command:
+        docker push {{ dockerhub_username }}/regapp:latest
