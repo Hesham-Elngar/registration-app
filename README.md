@@ -16,11 +16,12 @@ The pipeline performs the following tasks:
 ## 📂 Project Structure
 ``` text
 Registration-App/
+│── webapp/ 
+│── server/ 
 │── inventory/ # Ansible inventory file
 │── playbooks/ # Ansible playbooks for deployment
-│── k8s/ # Kubernetes manifests
-│ ├── deployment.yml
-│ ├── service.yml
+├── deployment.yml #k8s deployment
+├── service.yml #k8s service 
 │── Dockerfile # Application Dockerfile
 │── Jenkinsfile # Jenkins pipeline script
 │── README.md # Documentation
