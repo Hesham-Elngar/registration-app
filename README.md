@@ -100,11 +100,12 @@ Registration-App/
 ---
 ## 🛠️ Tools & Technologies
 
-Jenkins 🟢 – CI/CD pipeline
-Ansible 🧩 – Infrastructure as Code (IaC)
-Docker 🐳 – Containerization
-Kubernetes (EKS) ☸️ – Orchestration platform
+Jenkins 🟢 – CI/CD pipeline \
+Ansible 🧩 – Infrastructure as Code (IaC) \
+Docker 🐳 – Containerization \
+Kubernetes (EKS) ☸️ – Orchestration platform \
 AWS EKS 🌐 – Managed Kubernetes service
+
 ---
 
 ## 📸 Screenshots
