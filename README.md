@@ -127,7 +127,7 @@ AWS EKS 🌐 – Managed Kubernetes service
 
 ## 🚀 Future Improvements
 
-Add Monitoring (Prometheus + Grafana).
+Add Monitoring (Prometheus + Grafana). \
 Add GitOps approach with ArgoCD/Flux.
 
 
