@@ -30,10 +30,10 @@ Registration-App/
 ## 🏗️ Project Architecture
 <img width="1318" height="535" alt="image" src="https://github.com/user-attachments/assets/2042c44b-edba-4475-883a-70e02e44b021" />
 
-👨‍💻 Developer: Pushes code to GitHub.
-⚙️ Jenkins Server: Automates the pipeline using Jenkinsfile (build, test, trigger Ansible).
-📦 Ansible Server: Handles Docker image build, push, and Kubernetes deployment.
-🐳 DockerHub: Stores container images.
+👨‍💻 Developer: Pushes code to GitHub. \
+⚙️ Jenkins Server: Automates the pipeline using Jenkinsfile (build, test, trigger Ansible). \
+📦 Ansible Server: Handles Docker image build, push, and Kubernetes deployment. \
+🐳 DockerHub: Stores container images. \
 ☸️ AWS EKS Cluster: Runs containers & exposes the app to users.
 
 ## ⚙️ Pipeline Flow
