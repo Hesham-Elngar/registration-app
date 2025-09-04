@@ -28,8 +28,7 @@ Registration-App/
 ```
 
 ## 🏗️ Project Architecture
-
-<img width="1458" height="589" alt="image" src="https://github.com/user-attachments/assets/9e370be3-661d-4270-ac4c-41aa9aeecb40" />
+<img width="897" height="394" alt="image" src="https://github.com/user-attachments/assets/a62c8393-882e-4aec-bade-4f2507b40c44" />
 
 👨‍💻 Developer: Pushes code to GitHub.
 ⚙️ Jenkins Server: Automates the pipeline using Jenkinsfile (build, test, trigger Ansible).
