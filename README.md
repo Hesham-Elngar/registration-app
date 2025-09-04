@@ -29,7 +29,7 @@ Registration-App/
 
 ## 🏗️ Project Architecture
 
-<img width="1402" height="580" alt="image" src="https://github.com/user-attachments/assets/ddeee112-e50a-4d2f-bfca-9d3cbff597a7" />
+<img width="1458" height="589" alt="image" src="https://github.com/user-attachments/assets/9e370be3-661d-4270-ac4c-41aa9aeecb40" />
 
 👨‍💻 Developer: Pushes code to GitHub.
 ⚙️ Jenkins Server: Automates the pipeline using Jenkinsfile (build, test, trigger Ansible).
@@ -44,6 +44,12 @@ Registration-App/
 4. **Deploy Stage**: Ansible applies K8s manifests to EKS.  
 
 ## 🚀 CI/CD Workflow
+
+<img width="1104" height="865" alt="image" src="https://github.com/user-attachments/assets/925d6af4-4c8f-4353-8aea-c6f0ee6bd4ac" />
+
+More Detailed (Inside the EKS Cluster)
+<img width="1155" height="681" alt="image" src="https://github.com/user-attachments/assets/7f8af1ed-6882-4969-bcd4-2e39ae45203a" />
+
 
 ```text
 +----------------+
